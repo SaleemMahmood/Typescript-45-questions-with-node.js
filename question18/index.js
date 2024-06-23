@@ -1,0 +1,15 @@
+let palces = ["Makkah", "Madina", "Dubai", "Karachi", "New York"];
+console.log("Original Order: ", palces);
+console.log("Alphabetical Order without modifying list: ", palces.slice().sort());
+console.log("Order after Sorting Alphabetically: ", palces);
+console.log("Reverse Alphabetical Order without modifying list: ", palces.slice().sort().reverse());
+console.log("Order after Reverse Sorting Alphabetically: ", palces);
+palces.reverse();
+console.log("Reverse Order: ", palces);
+palces.reverse();
+console.log("Reverse Order again, back to original order: ", palces);
+palces.sort();
+console.log("Orgiginal list sorted: ", palces);
+palces.reverse();
+console.log("Reverse alphabetical order: ", palces);
+export {};
